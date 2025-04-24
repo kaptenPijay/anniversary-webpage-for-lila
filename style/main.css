@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
@@ -64,7 +64,7 @@ body {
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   position: absolute;
   right: 5px;
 }
@@ -86,14 +86,15 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
-
 
 .six {
   position: relative;
@@ -112,8 +113,8 @@ body {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
-  width: 80px;
+  top: -30%;
+  width: 300px !important;
 }
 
 .baloons img {
@@ -122,18 +123,19 @@ body {
 }
 
 .baloons img:nth-child(even) {
-  left: -10%;
+  left: 5%;
 }
 
 .baloons img:nth-child(odd) {
-  right: -10%;
+  right: 5%;
 }
 
 .baloons img:nth-child(3n + 0) {
   left: 30%;
 }
 
-.seven, .eight {
+.seven,
+.eight {
   height: 100vh;
   position: fixed;
   top: 0;
